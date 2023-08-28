@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+
+.logo {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: White;
+    letter-spacing: 0px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.navbar a {
+    list-style: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left: 22px;
+    padding: 20px 7px;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #11f123;
+}
+
+.bold-text {
+    z-index: 3;
+    width: 752px;
+    color: #fff;
+    text-decoration: left;
+    letter-spacing: 0px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    position: relative;
+    left: 100px;
+    bottom: -170px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: 110px;
+    margin-top: -150px;
+}
+
+.image {
+    padding-top: 30px;
+    height: 700px;
+}
+
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.top-left {
+    position: relative;
+    top: 8px;
+    left: 16px;
+}
+
+.desq {
+    color: #11f123;
+}
+
+.dash {
+    content: "";
+    width: 10%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    bottom: 90px;
+    left: 117px;
+}
+
+.ido {
+    position: relative;
+    text-align: left;
+    color: #868686;
+    font-weight: 100;
+    line-height: 26px;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.ido1 {
+    position: relative;
+    bottom: 300px;
+    left: 117px;
+}
+
+.ido2 {
+    position: relative;
+    bottom: 280px;
+    left: 117px;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.redy1 {
+    font-size: 20px;
+    color: White;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.redy1 :hover {
+    color: red;
+}
+
+.redy2 {
+    font-size: 20px;
+    color: White;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.redy2 :hover {
+    color: pink;
+}
+
+.redy3 {
+    font-size: 20px;
+    color: White;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.redy3 :hover {
+    color: #1877F2;
+}
+
+.redy4 {
+    font-size: 20px;
+    color: White;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.redy4 :hover {
+    color: rgb(115, 190, 219);
+}
+
+.dash3 {
+    content: "";
+    width: 10%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    bottom: 747px;
+    right: 130px;
+}
+
+.dash4 {
+    border-left: 2px solid white;
+    height: 100px;
+    position: absolute;
+    left: 605px;
+    margin-left: -3px;
+    top: -103px;
+}
+
+.x1 {
+    color: #11f123;
+    position: relative;
+    bottom: 13pc;
+    left: 596.6px;
+}
+
+.x2 {
+    color: #11f123;
+    position: relative;
+    bottom: 757px;
+    left: 920px;
+}
+
+.worked-with {
+    color: gray;
+    font-family: 'Nunito Sans', sans-serif;
+    bottom: 6pc;
+    left: 521px;
+    font-size: 10px;
+    font-weight: 100;
+    position: relative;
+}
+
+.ah {
+    position: relative;
+    bottom: -7pc;
+    left: -100px;
+}
